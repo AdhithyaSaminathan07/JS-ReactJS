@@ -1,3 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+body{
+    margin-top:100px;
+}
+h1{
+    text-align:center;
+}
 #form-validation{
     border: 1px solid gray;
+    width: 30vw;
+    min-width:300px;
+    height: 60vh;
+    box-shadow: 3px 3px 5px red;
+    margin: auto;
+    display :grid;
+    padding: 20px;
+}
+
+#form-validation .form-group{
+    display: flex;
+    flex-direction:column;
+}
+
+#form-validation.form-group input{
+    height: 30px;
+}
+
+#form-validation button{
+    height: 35px;
+    back
 }
